@@ -15,6 +15,12 @@ public class Developer {
 
     private Integer age;
 
+    public Developer(String name, BigDecimal salary, Integer age) {
+        this.name = name;
+        this.salary = salary;
+        this.age = age;
+    }
+
     public String getName() {
         return this.name;
     }
